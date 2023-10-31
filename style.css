@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Rose:wght@300;400;500;600;700&display=swap');      
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --azul: #0b3b5c;
+    --cinza: #6c6771;
+    --vermelho: #e2271b;
+    --redrose: 'Red Rose', serif;
+    --barlow: 'Barlow', sans-serif; 
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 !important;
+}
+
+.stage {
+    max-width: 1320px;
+    margin: auto;
+}
+
+/* MENU*/
+
+.menuStage {
+    background-color: var(--azul);
+    padding: 0 10%;
+}
+
+.menu {
+    height: 8vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.logo {
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+.imgLogo {
+    height: 80%;
+}
+
+.nave {
+    margin: auto;
+}
+
+.nave a{
+    text-decoration: none;
+    font-family: var(--barlow);
+    font-size: 0.8rem;
+    color: white;
+    padding: 0 10px;
+}
+
+.nave a:hover{
+    color: red
+}
+
+.redessociais {
+    margin: auto;
+    font-size: 2rem;
+}
+.redessociais i {
+    color: white !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .menu {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .logo {
+        justify-self: center;
+    }
+    
+    .nave {
+        display: none;
+    }
+    
+    .redessociais {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1300px){
+    .nave a{
+        font-size: 0.6rem;
+    }
+}
+
+/* CAROUSEL */
+.carousel-inner {
+    height: 80vh !important;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.hero01 {
+    height: 100%;
+    background-image: url("imgs/hero.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 10%;
+    margin: auto;
+}
+
+.hero01::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero02 {
+    height: 100%;
+    background-image: url("imgs/hero.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 10%;
+    margin: auto;
+}
+
+.hero02::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero03 {
+    height: 100%;
+    background-image: url("imgs/heroArtigo.png");
+    background-position: center;
+    background-size: cover;
+    padding: 0 10%;
+    margin: auto;
+}
+
+.hero03::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.conteudoHero {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    position: inherit;
+    z-index: +12;
+}
+
+.titHero {
+    font-family: var(--redrose);
+    font-size: 2.5rem;
+    padding: 0 !important;
+    line-height: 2.4rem;
+    width: 40%;
+}
+
+.subHero {
+    font-family: var(--barlow);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0;
+    width: 40%;
+}
+
+.btnConheca {
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid white !important;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 15px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.btnConheca:hover {
+    color: var(--azul);
+    background-color: white;
+}
+
+.slide span{
+    height: 15px;
+} 
+
+/* SOMOS */
+
+.somos {
+    padding: 0 10%;
+}
+
+.conteudoSomos {
+    padding: 5% 0;
+}
+
+.secao {
+    font-size: 0.7rem;
+    color: var(--vermelho)
+}
+
+.titulo {
+    font-family: var(--redrose);
+    color: var(--azul);
+}
+
+p {
+    font-family: 'Barlow', sans-serif; 
+    color: var(--cinza);
+    font-size: 1rem;
+    line-height: 1.2rem;
+}
+
+.btnSaibaMais {
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: none;
+    color: var(--azul);
+    background-color: transparent;
+    padding: 0;
+}
+
+.btnSaibaMais:hover {
+    font-weight: 700;
+}
+
+/* ABORDAGEM */
+
+.abordagem {
+    padding: 0 10%;
+}
+.conteudoAbordagem {
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.conteudoAbordagem img {
+    width: 80%;
+}
+
+/* PARALAX */
+
+.paralax {
+    height: 50vh;
+    background-color: red;
+    background-image: url("imgs/fundoParalax.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 0 10%;
+}
+
+.paralax::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.conteudoParalax {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoParalax h1 {
+    font-family: var(--redrose);
+    color: white;
+    z-index: 1;
+    font-size: 3rem;
+}
+
+/* TESTEMUNHAIS */
+
+.secTestimonial {
+    padding: 0 10%;
+}
+
+.testimonial-carousel {
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.testimonial {
+    text-align: center;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  .depoimento {
+    font-family: var(--barlow);
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .nomeCliente {
+    font-family: var(--redrose);
+    font-size: 1rem;
+    color: var(--azul);
+  }
+
+  .cargoCliente {
+    font-family: var(--barlow);
+    font-size: 0.8rem;
+  }
+
+  .slick-prev, .slick-next {
+    font-size: 0.8rem; /* Tamanho do ícone */
+    color: #333; /* Cor do ícone */
+    background-color: transparent; /* Cor de fundo */
+    border: none; /* Sem borda */
+    width: auto; /* Largura automática */
+    height: auto; /* Altura automática */
+    top: 50%; /* Posiciona no meio verticalmente */
+    transform: translateY(-50%); /* Ajuste fino para centralização exata */
+}
+
+.slick-prev {
+    position: absolute;
+    left: 0; /* Distância da borda esquerda */
+}
+
+.slick-next {
+    position: absolute;
+    right: 0; /* Distância da borda direita */
+}
+
+.slick-prev:hover, .slick-next:hover {
+    color: #000;
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+@media screen and (max-width: 1024px)  {
+    
+  .depoimento {
+    font-family: var(--barlow);
+    font-weight: 300;
+    font-size: 0.8rem;
+  }
+
+  .nomeCliente {
+    font-family: var(--redrose);
+    font-size: 1rem;
+  }
+
+  .cargoCliente {
+    font-family: var(--barlow);
+    font-size: 0.8rem;
+  }
+}
+
+/* ARTIGOS */
+
+.secArtigos {
+    padding: 0 10%;
+    /* background: linear-gradient(to left, var(--azul) 50%, var(--cinza) 50%); */
+    position: relative;
+    background-color: var(--azul);
+    color:#fff;
+    z-index: 1;
+}
+
+.secArtigos::before {
+    content:'';
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background:url('imgs/hero.png') 0 0 no-repeat;
+    background-position: bottom left;
+    z-index: -1;
+}
+
+.secArtigos::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.artigos {
+    display: flex;
+}
+
+.artigos div {
+    width: 50%;
+}
+
+.artigo01 {
+    padding: 5% 5% 5% 0%;
+}
+
+.artigo02 {
+    padding: 5% 0% 5% 5%;
+}
+
+.artigos h1 {
+    font-family: var(--redrose);
+    color: white;
+    line-height: 2.3rem;
+    font-size: 2rem;
+}
+
+.artigos p {
+    font-family: var(--barlow);
+    color: white;
+    font-weight: 200;
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+
+.btnLeiaMais {
+    font-family: 'Barlow', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid white !important;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 15px;
+}
+
+.btnLeiaMais:hover {
+    color: var(--azul);
+    background-color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .artigos {
+        display: block;
+    }
+
+    .secArtigos {
+        padding: 0 10%;
+        /* background: linear-gradient(to top, var(--azul) 50%, var(--cinza) 50%); */
+    }
+
+    .secArtigos::before{
+        height: 50%;
+        width: 100%;
+    }
+
+    .secArtigos::after{
+        height: 50%;
+        width: 100%;
+    }
+
+    .artigos div {
+        width: 100%;
+        padding: 15% 0;
+    }
+
+    .artigos h1 {
+        font-size: 1.6rem;
+        line-height: 1.5rem;
+    }
+    
+    .artigos p {
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }  
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 0 10%;
+    background-color: #004a87;
+}
+.conteudoFooter {
+    padding: 3% 0;
+}
+
+.footer h6 {
+    font-family: var(--barlow);
+    font-size: 0.8rem;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudoFooter img {
+        height: 70px;
+    }
+}
+
+/*  WHASTAPP */
+
+.whatsapp {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    font-size: 50px;
+    background-color: transparent;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 100;
+}
+
+.whatsapp a{
+    color: green;
+}
+
+@media screen and (max-width: 768px) {
+    .whatsapp {
+        display: none;
+    }
+    
+}
+
+

@@ -1,26 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
-     
-    <!-- CSS do Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-   
-    <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
-      
-    <title>Grupo Ctrês</title>
-</head>
-
-<body>
-
-<!-- INICIO MENU -->
-<div class="menuStage">
-  
-</div>
-<!-- FIM MENU -->
+<?php include 'header.php'; ?>
 
 <!-- INICIO CAROUSEL -->
     
@@ -31,16 +9,9 @@
           <div class="stage conteudoHero">
             <h1 class="titHero">Somos mais do que uma corretora.</h1>
             <h6 class="subHero">Somos consultores estratégicos, dedicados a construir soluções sob medida em logística e seguros.</h6>
-            <a href="#somos"><button hre type="button" class="btnConheca">SAIBA MAIS</button></a>
+            <a href="#somos"><button type="button" class="btnConheca">SAIBA MAIS</button></a>
           </div>
       </div>
-      <div class="carousel-item hero02">
-        <div class="stage conteudoHero">
-          <h1 class="titHero">Somos mais do que uma corretora.</h1>
-          <h6 class="subHero">Somos consultores estratégicos, dedicados a construir soluções sob medida em logística e seguros.</h6>
-          <button class="btnConheca">SAIBA MAIS</button>
-        </div>
-    </div>
     <div class="carousel-item hero03">
       <div class="stage conteudoHero">
         <h1 class="titHero">Impactos Estratégicos da Lei 14.599/23 no Mercado de Seguros de Transporte Rodoviário.</h1>
@@ -76,7 +47,7 @@
         <br><br>Vamos além do tradicional papel de corretora. Atuamos como consultores estratégicos, com foco em desenvolver soluções sob medida que resultem em redução de custos, aumento de eficiência e fortalecimento do seu balanço.
         
         <br><br>O Grupo CTrês valoriza a individualidade da sua empresa, proporcionando expertise e soluções alinhadas às melhores práticas do mercado e verdadeiramente adaptadas às suas demandas.</p>
-        <button class="btnSaibaMais">SAIBA MAIS&nbsp;<i class="fa-solid fa-circle-arrow-right"></i></button>
+        <a href="somos.php"><button class="btnSaibaMais">SAIBA MAIS SOBRE A HISTÓRIA DE SUCESSO DO GRUPO CTRÊS&nbsp;<i class="fa-solid fa-circle-arrow-right"></i></button></a>
     </div>
 </section>
 
@@ -134,70 +105,23 @@
 
 <!-- INICIO ARTIGOS --> 
 
-<section class="secArtigos">
+<section id="secArtigos" class="secArtigos">
   <div class="stage artigos">
     <div class="artigo01">
       <h6 class="secao">ARTIGO</h6>
       <h1>Os Riscos Logísticos e seus Impactos na Saúde Financeira das Transportadoras</h1>
       <p>O setor de transporte desempenha um papel fundamental na economia brasileira, ligando mercados, permitindo o comércio e impulsionando o crescimento. No entanto, as transportadoras de pequeno e médio porte no Brasil enfrentam uma série de desafios financeiros que podem impactar significativamente suas operações e sustentabilidade a longo prazo.</p>
-      <button class="btnLeiaMais">LEIA MAIS</button>
+      <a href="02-Riscos-Logisticos.php"><button hre type="button" class="btnLeiaMais">LEIA MAIS</button></a>
     </div>
     <div class="artigo02">
       <h6 class="secao">ARTIGO</h6>
       <h1>Impactos Estratégicos da Lei 14.599/23 no Mercado de Seguros de Transporte Rodoviário</h1>
       <p>A recente Lei 14.599/23, promulgada em junho de 2023, representa um divisor de águas no cenário dos seguros de transporte rodoviário no Brasil. Suas implicações vão além das simples mudanças normativas, refletindo em toda a cadeia logística e no mercado segurador.</p>
-      <button class="btnLeiaMais">LEIA MAIS</button>
+      <a href="01-Lei-14599-23.php"><button hre type="button" class="btnLeiaMais">LEIA MAIS</button></a>
     </div>
   </div>
 </section>
 
 <!-- FIM ARTIGOS --> 
 
-<!-- INICIO FOOTER --> 
-
-<footer class="footer">
-  <div class="stage conteudoFooter">
-    <img src="imgs/ctres-logotipo-misto.svg" alt="">
-    <h6>Av. Engenheiro Luís Carlos Berrini, 1748 - CJ 1502 <br>Itaim Bibi, São Paulo - SP<br> 04571-010</h6>
-    <h6><b>(11) 5523-2177</b></h6>
-  </div> 
-</footer>
-
-<!-- FIM FOOTER --> 
-
-<!-- INICIO WHATSAPP --> 
-
-<section class="whatsapp">
-  <a href="https://api.whatsapp.com/send?phone=551155232177"><i class="fa-brands fa-whatsapp"></i></a>
-</section>
-
-<!-- FIM WHATSAPP --> 
-  
-
-<!-- JavaScript e dependências do Bootstrap -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-<!-- Inclusão do CSS do Slick Carousel -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-
-<!-- Inclusão do jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-
-<!-- Inclusão do JavaScript do Slick Carousel -->
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js"></script>
-
-<!-- Inclusão do JavaScript Próprio -->
-<script src="js.js"></script>
-
-<!-- Inclusão do FONT AWESOME -->
-<script src="https://kit.fontawesome.com/0cb18bf594.js" crossorigin="anonymous"></script>
-
-<script>
-   $(function() {
-        $(".menuStage").load("menu.html");
-    });
-</script>
-
-</body>
-</html>
+<?php include 'footer.php'; ?>

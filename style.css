@@ -177,7 +177,6 @@ body, html {
     justify-content:center;
     height: 100%;
     width: 100%;
-    color: white;
     position: inherit;
     z-index: +12;
 }
@@ -188,6 +187,8 @@ body, html {
     padding: 0 !important;
     line-height: 2.4rem;
     width: 40%;
+    color: white;
+    z-index: 3;
 }
 
 .subHero {
@@ -196,6 +197,8 @@ body, html {
     font-weight: 300;
     padding: 0;
     width: 40%;
+    color: white;
+    z-index: 3;
 }
 
 .btnConheca {
@@ -218,6 +221,26 @@ body, html {
 .slide span{
     height: 15px;
 } 
+
+@media screen and (max-width: 768px) {
+    .titHero {
+        font-family: var(--redrose);
+        font-size: 2.5rem;
+        padding: 0 !important;
+        line-height: 2.4rem;
+        width: 100%;
+    }
+    
+    .subHero {
+        font-family: var(--barlow);
+        font-size: 1rem;
+        font-weight: 300;
+        padding: 0;
+        width: 100%;
+    }
+
+
+}
 
 /* SOMOS */
 
@@ -260,6 +283,13 @@ p {
     font-weight: 700;
 }
 
+@media screen and (max-width: 768px) {
+    .somos {
+        padding: 10% 10%;
+    }
+
+}
+
 /* ABORDAGEM */
 
 .abordagem {
@@ -273,6 +303,13 @@ p {
 
 .conteudoAbordagem img {
     width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudoAbordagem img {
+        width: 100%;
+    }
+
 }
 
 /* PARALAX */
@@ -373,12 +410,6 @@ p {
     color: #000;
 }
 
-@media screen and (max-width: 768px) {
-
-
-
-}
-
 @media screen and (max-width: 1024px)  {
     
   .depoimento {
@@ -402,7 +433,6 @@ p {
 
 .secArtigos {
     padding: 0 10%;
-    /* background: linear-gradient(to left, var(--azul) 50%, var(--cinza) 50%); */
     position: relative;
     background-color: var(--azul);
     color:#fff;
@@ -417,8 +447,8 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
-    background:url('imgs/hero.png') 0 0 no-repeat;
-    background-position: bottom left;
+    background: url("imgs/heroArtigo.png") 0 0 no-repeat;
+    background-position: center right;
     z-index: -1;
 }
 
@@ -475,10 +505,15 @@ p {
     padding: 5px 15px;
 }
 
-.btnLeiaMais:hover {
+.btnLeiaMais a:link, a:visited {
+    text-decoration: none;
+}
+
+.btnLeiaMais:hover{
     color: var(--azul);
     background-color: white;
 }
+
 
 @media screen and (max-width: 1024px) {
     .artigos {
@@ -487,7 +522,6 @@ p {
 
     .secArtigos {
         padding: 0 10%;
-        /* background: linear-gradient(to top, var(--azul) 50%, var(--cinza) 50%); */
     }
 
     .secArtigos::before{
@@ -516,7 +550,209 @@ p {
     }  
 }
 
-/* FOOTER */
+/* ---------------------------------------SOMOS-------------------------------------- */
+
+/*  SOMOS */
+.secSomos {
+    height: 600px;
+    padding: 0 10%;
+    background-image: url("imgs/heroSomos.png");
+    background-position: top right;
+    background-repeat: calc(no-repeat);
+    position: relative;
+    z-index: -10;
+}
+
+.secSomos::after {
+    position: absolute;
+    content: " ";
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.conteudoHeroSomos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.heroSomos {
+    height: 100%;
+}
+
+.heroSomos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    z-index: 2;
+}
+
+
+/* ICONES */
+.secIcones {
+    padding: 0 10% 3% 10%;
+    margin-top: -60px;
+    z-index: 10;
+}
+
+.conteudoIcones {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    gap: 1% 1%;
+}
+
+.cartaoIcones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 5px gray;
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.imgIcones {
+    height: 80px;
+}
+
+.titIcones {
+    font-family: var(--redrose);
+    text-align: center;
+    color: var(--azul);
+    font-size: 2rem;
+}
+
+.descIcones {
+    font-family: var(--barlow);
+    text-align: center;
+    color: var(--azul);
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1300px) {
+    .conteudoIcones {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+    .conteudoIcones {
+        grid-template-columns: 1fr 1fr;
+    }
+    .secIcones {
+        padding: 0 10% 3% 10%;
+        margin-top: -200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .conteudoIcones {
+        grid-template-columns: 1fr;
+    }
+    .secIcones {
+        padding: 0 10%;
+        margin-top: -100px;
+        margin-bottom: 100px;
+    }
+}
+
+/* HISTORIA */
+.secHistoria {
+    padding: 0 10%;
+}
+
+.conteudoHistoria {
+    display: flex;
+}
+
+.imgHistoria {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.imgBrasao {
+    height: 200px;
+}
+
+.historia {
+    display: flex;
+    align-items: center;
+}
+
+.historia p {
+    font-family: var(--barlow);
+    padding: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudoHistoria {
+        display: block;
+    }
+
+    .imgHistoria {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-top: 30px;
+    }
+}
+
+/* ---------------------------------------ARTIGOS-------------------------------------- */
+
+/*  POST 01*/
+.heroPost01 {
+    padding: 0 10%;
+    background-image: url("imgs/heroArtigo.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.conteudoPost {
+    background-color: white;
+    margin: 0 10%;
+    margin-top: -100px;
+    padding: 80px;
+    box-shadow: 0 0 5px gray;
+    margin-bottom: 80px;
+}
+
+.conteudoPost h1 {
+    margin-bottom: 20px;
+}
+
+.autor {
+    display: flex;
+    align-items: end;
+}
+
+/*  POST 02 */
+
+.imgArtigo02 {
+    width: 100%;
+}
+
+
+
+
+
+
+/* ---------------------------------------FOOTER-------------------------------------- */
 
 .footer {
     padding: 0 10%;
@@ -532,14 +768,27 @@ p {
     color: white;
 }
 
+.copyFooter {
+    font-weight: 200;
+}
+
+.copyFooter a:link {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1024px) {
     .conteudoFooter img {
         height: 70px;
     }
 }
 
-/*  WHASTAPP */
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin-bottom: 60px;
+    }
+}
 
+/*  WHASTAPP */
 .whatsapp {
     height: 50px;
     display: flex;
@@ -552,15 +801,59 @@ p {
     z-index: 100;
 }
 
-.whatsapp a{
-    color: green;
+.logoWhatsapp {
+    height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .whatsapp {
         display: none;
     }
     
 }
 
+/*  MENU MOBILE */
 
+.menuMobile {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+
+    .menuMobile {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+        height: 60px;
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        background-color: white;
+        box-shadow: 0 0 5px gray;
+        z-index: 20;
+    }
+
+    .menuMobile a{
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+    .menuMobile h6 {
+        font-size: 0.6rem;
+    }
+
+    .botao{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .botao a {
+        cursor: pointer;
+        color: var(--azul);
+    }
+
+    .botao i {
+        color: var(--azul);
+    }
+}

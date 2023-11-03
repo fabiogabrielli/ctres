@@ -35,13 +35,13 @@ body, html {
 }
 
 .menu {
-    height: 8vh;
+    height: 10vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
 
 .logo {
-    height: 8vh;
+    height: 10vh;
     display: flex;
     align-items: center;
 }
@@ -713,16 +713,6 @@ p {
 
 /* ---------------------------------------ARTIGOS-------------------------------------- */
 
-/*  POST 01*/
-.heroPost01 {
-    padding: 0 10%;
-    background-image: url("imgs/heroArtigo.png");
-    height: 400px;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .conteudoPost {
     background-color: white;
     margin: 0 10%;
@@ -741,7 +731,43 @@ p {
     align-items: end;
 }
 
+@media screen and (max-width: 480px) {
+    .conteudoPost {
+        background-color: white;
+        margin: 0 5%;
+        margin-top: -100px;
+        padding: 20px;
+        box-shadow: 0 0 5px gray;
+        margin-bottom: 80px;
+    }
+    .autor {
+        display: block;
+        align-items: end;
+    }
+    
+}
+
+
+/*  POST 01*/
+.heroPost01 {
+    padding: 0 10%;
+    background-image: url("imgs/heroArtigo.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /*  POST 02 */
+
+.heroPost02 {
+    padding: 0 10%;
+    background-image: url("imgs/heroArtigo.png");
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .imgArtigo02 {
     width: 100%;

@@ -23,24 +23,24 @@
 
 <section class="menuMobile">
     <div class="botao">
-      <a href="#"><i class="fa-solid fa-house"></i></a>
-      <a href=""><h6>HOME</h6></a>
+      <a href="index.php"><i class="fa-solid fa-house"></i></a>
+      <a href="index.php"><h6>HOME</h6></a>
     </div>
     <div class="botao">
-      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-      <a href=""><h6>LINKEDIN</h6></a>
+      <a href="https://br.linkedin.com/company/grupoctres"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://br.linkedin.com/company/grupoctres"><h6>LINKEDIN</h6></a>
     </div>
     <div class="botao">
-      <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
-      <a href=""><h6>FACEBOOK</h6></a>
+      <a href="https://www.facebook.com/grupoctresoficial/"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://www.facebook.com/grupoctresoficial/"><h6>FACEBOOK</h6></a>
     </div>
     <div class="botao">
-      <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
-      <a href=""><h6>INSTAGRAM</h6></a>
+      <a href="https://www.instagram.com/grupoctres/"><i class="fa-brands fa-instagram"></i></i></a>
+      <a href="https://www.instagram.com/grupoctres/"><h6>INSTAGRAM</h6></a>
     </div>
     <div class="botao">
-      <a href="#"><i class="fa-brands fa-square-whatsapp"></i></i></a>
-      <a href=""><h6>WHATSAPP</h6></a>
+      <a href="https://api.whatsapp.com/send?phone=551155232177"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+      <a href="https://api.whatsapp.com/send?phone=551155232177"><h6>WHATSAPP</h6></a>
     </div>
 </section>
 

@@ -1,6 +1,6 @@
 <?php include 'header.php'; ?>
 
-<section class="heroPost01"></section>
+<section class="heroPost02"></section>
 <div class="stage conteudoPost">
     <h6 class="secao">ARTIGO</h6>
     <h1 class="titPost">Impactos Estratégicos da Lei 14.599/23 no Mercado de Seguros de Transporte Rodoviário

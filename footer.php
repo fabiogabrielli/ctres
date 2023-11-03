@@ -43,7 +43,6 @@
       <a href="https://api.whatsapp.com/send?phone=551155232177"><h6>WHATSAPP</h6></a>
     </div>
 </section>
-
 <!-- FIM MENU MOBILE --> 
   
 

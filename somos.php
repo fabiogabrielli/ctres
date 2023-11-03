@@ -1,4 +1,5 @@
 <?php include 'header.php'; ?>
+<?php include 'menuGeral.php'; ?>
 
 <!-- INICIO HERO -->
 <section class="secSomos">

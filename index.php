@@ -57,7 +57,7 @@
 
 <section class="abordagem">
   <div class="stage conteudoAbordagem">   
-    <img src="imgs/abordagemConsultiva.svg" alt="abordagem consultiva">
+    <img src="imgs/abordagemConsultiva.png" alt="abordagem consultiva">
   </div>  
 </section>
 

@@ -1,5 +1,4 @@
 <?php include 'header.php'; ?>
-<?php include 'menuHome.php'; ?>
 
 <!-- INICIO CAROUSEL -->
     

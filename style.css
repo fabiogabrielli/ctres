@@ -581,6 +581,10 @@ p {
     text-align: center;
 }
 
+.titHero {
+    width: 100%;
+}
+
 .heroSomos {
     height: 100%;
 }
@@ -593,6 +597,120 @@ p {
     z-index: 2;
 }
 
+/* HISTORIA */
+.secHistoria {
+    padding: 5% 10%;
+}
+
+.conteudoHistoria {
+    display: flex;
+}
+
+.imgHistoria {
+    width: 20%;
+}
+
+.imgBrasao {
+    height: 200px;
+}
+
+.historia {
+    display: flex;
+    width: 80%;
+}
+
+.historia p {
+    font-family: var(--barlow);
+}
+
+@media screen and (max-width: 768px) {
+    .conteudoHistoria {
+        display: block;
+    }
+
+    .imgHistoria {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+    .historia {
+        width: 100%;
+    }
+}
+
+
+/* CARLOS */
+
+.secCarlos {
+    padding: 0 10%;
+}
+
+.conteudoCarlos {
+    display: flex;
+    padding: 5% 0;
+}
+
+.textoCarlos {
+    width: 80%;
+    padding-right: 20px;
+}
+
+.titCarlos {
+    font-family: var(--redrose);
+    color: var(--azul);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.histCarlos {
+    font-family: var(--barlow);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0;
+    width: 100%;
+
+}
+
+.imgCarlos {
+    display: flex;
+    align-items: center ;
+    justify-content: right;
+    width: 20%;
+}
+
+.fotoCarlos {
+    height: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .conteudoCarlos {
+        display: block;
+    }
+
+    .imgCarlos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .fotoCarlos {
+        height: 200px;
+    }
+
+    .historia {
+        width: 100%;
+    }
+
+    .textoCarlos {
+        width: 100%;
+    }
+}
 
 /* ICONES */
 .secIcones {
@@ -667,49 +785,6 @@ p {
     }
 }
 
-/* HISTORIA */
-.secHistoria {
-    padding: 0 10%;
-}
-
-.conteudoHistoria {
-    display: flex;
-}
-
-.imgHistoria {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-}
-
-.imgBrasao {
-    height: 200px;
-}
-
-.historia {
-    display: flex;
-    align-items: center;
-}
-
-.historia p {
-    font-family: var(--barlow);
-    padding: 30px 0;
-}
-
-@media screen and (max-width: 768px) {
-    .conteudoHistoria {
-        display: block;
-    }
-
-    .imgHistoria {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0px;
-        padding-top: 30px;
-    }
-}
 
 /* ---------------------------------------ARTIGOS-------------------------------------- */
 
@@ -772,10 +847,6 @@ p {
 .imgArtigo02 {
     width: 100%;
 }
-
-
-
-
 
 
 /* ---------------------------------------FOOTER-------------------------------------- */

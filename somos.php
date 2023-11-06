@@ -1,5 +1,4 @@
 <?php include 'header.php'; ?>
-<?php include 'menuGeral.php'; ?>
 
 <!-- INICIO HERO -->
 <section class="secSomos">
@@ -67,5 +66,24 @@
 </section>
 <!-- FIM HISTORIA -->
 
+<!-- INICIO CARLOS -->
+<section class="secCarlos">
+    <div class="stage conteudoCarlos">
+        <div class="textoCarlos">
+            <h1 class="titCarlos">A experiência de 30 anos</h1>
+            <h6 class="histCarlos">
+                A história de Carlos é marcada por mais de duas décadas de paixão, dedicação e expertise no mercado de seguros. Tendo ocupado posições de destaque em grandes seguradoras, ele carrega em sua bagagem um profundo conhecimento do setor.
+                <br><br>
+                Carlos Moreira possui mais de 30 anos de experiência no mercado Segurador, hoje como Socio e Fundador do GRUPO CTRÊS SEGUROS. É Especialista em Seguros, Resseguro e Loss Prevention, com formação em Comércio Exterior, especialização em Logística e MBA Executivo em Seguros pelo IBMEC. Também compartilhou seu conhecimento como Professor universitário no curso de Gestão de Negócios Securitários. Ao longo de sua carreira de 20 anos em Companhias de Seguros, passou os últimos 10 anos atuando como Head/Superintendente da carteira de Transportes em empresas renomadas como Liberty, Allianz, QBE, Mapfre e Ace. Atualmente, é o CEO do Grupo CTRÊS.
+            </h6>
+        </div>
+        <div class="imgCarlos">
+            <img class="fotoCarlos" src="imgs/carlos-site (1).png" alt="">
+        </div>
+
+    </div>
+
+</section>
+<!-- FIM CARLOS -->
 
 <?php include 'footer.php'; ?>

@@ -1,6 +1,4 @@
 <?php include 'header.php'; ?>
-<?php include 'menuGeral.php'; ?>
-
 
 <section class="heroPost01"></section>
 <div class="stage conteudoPost">

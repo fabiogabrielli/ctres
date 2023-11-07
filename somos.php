@@ -4,7 +4,7 @@
 <section class="secSomos">
     <div class="stage heroSomos">
         <div class="conteudoHeroSomos">
-            <h1 class="titHero">Uma história de sucesso</h1>
+            <h1 class="titHeroSomos">Uma história de sucesso</h1>
         </div>
     </div>
 </section>

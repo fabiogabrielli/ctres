@@ -545,7 +545,7 @@ p {
     }
     
     .artigos p {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
         line-height: 1rem;
     }  
 }
@@ -581,7 +581,7 @@ p {
     text-align: center;
 }
 
-.titHero {
+.titHeroSomos {
     width: 100%;
 }
 

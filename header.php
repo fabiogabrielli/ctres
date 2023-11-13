@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
       
     <title>Grupo Ctrês</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo_ctres_brazao.svg">
 </head>
 
 <body>

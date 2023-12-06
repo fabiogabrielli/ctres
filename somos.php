@@ -35,7 +35,7 @@
         </div>
         <div class="cartaoIcones">
             <img class="imgIcones" src="imgs/icon-sinistros.svg" alt="">
-            <h1 class="titIcones">+500</h1>
+            <h1 class="titIcones">+700</h1>
             <h6 class="descIcones">sinistros regulados</h6>
         </div>
         <div class="cartaoIcones">

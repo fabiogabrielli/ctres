@@ -159,23 +159,23 @@
   <div class="stage testimonial-carousel">
       <div class="testimonial">
         <h6 class="depoimento">O Grupo CTRÊS conta com profissionais qualificados e dedicados para atender as nossas necessidades como clientes, posso dizer que em 4 anos de parceria nunca tivemos um caso, em que não tive retorno rápido e bom atendimento.</h6>
-        <h4 class="nomeCliente">Coordenadora de Importação</h4>
-        <h6 class="cargoCliente">RIO BRANCO COM. E IND. DE PAPEIS</h6>
+        <h4 class="cargoCliente">Coordenadora de Importação</h4>
+        <h6 class="empresaCliente">RIO BRANCO COM. E IND. DE PAPEIS</h6>
       </div>
       <div class="testimonial">
         <h6 class="depoimento">A CTrês Corretora vem desempenhando com dedicação e competência os serviços relacionados a seguros. Admirável a atenção que recebemos dos seus profissionais. Observamos um time preparado para atender todas as nossas demandas.</h6>
-        <h4 class="nomeCliente">Chief Financial Officer</h4>
-        <h6 class="cargoCliente">Supersonic Logística e Transportes Ltda / Componel Indústria e Comércio Ltda</h6>
+        <h4 class="cargoCliente">Chief Financial Officer</h4>
+        <h6 class="empresaCliente">Supersonic Logística e Transportes Ltda / Componel Indústria e Comércio Ltda</h6>
       </div>
       <div class="testimonial">
         <h6 class="depoimento">A Ctrês é a corretora e consultora que nos acompanha há anos. Sempre nos trazem segurança e tranquilidade nas contratações de seguros, além de serem especialistas em seguros de carga, otimizando nossos recursos. Agradeço ao time pela dedicação e empenho contínuos. </h6>
-        <h4 class="nomeCliente">Gerente de Comex</h4>
-        <h6 class="cargoCliente">Grupo 3 Corações Alimentos</h6>
+        <h4 class="cargoCliente">Gerente de Comex</h4>
+        <h6 class="empresaCliente">Grupo 3 Corações Alimentos</h6>
       </div>
       <div class="testimonial">
         <h6 class="depoimento">Há 12 anos o grupo Dismarina Transportes  Rodoviários conta com o atendimento da CTrês Seguros na contratação de todos os nossos seguros. Empresa séria, com excelentes profissionais, sempre atentos as melhores oportunidades para nos atender. Estamos muito satisfeitos com a nossa parceria.</h6>
-        <h4 class="nomeCliente">Gerente de Vendas</h4>
-        <h6 class="cargoCliente">Dismarina Transortes Rodoviários</h6>
+        <h4 class="cargoCliente">Gerente de Vendas</h4>
+        <h6 class="empresaCliente">Dismarina Transortes Rodoviários</h6>
       </div>
   </div>
 </section>

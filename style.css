@@ -291,7 +291,16 @@ p {
 
 @media screen and (max-width: 768px) {
     .somos {
-        padding: 10% 10%;
+        padding: 5% 10%;
+    }
+
+    .titulo {
+        font-size: 2rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.2rem;
     }
 
 }
@@ -454,6 +463,8 @@ p {
 }
 
 @media screen and (max-width: 1024px) {
+
+
     #fluxoCiclico {
         grid-template:  "ponto1" 130px
                         "ponto2" 130px
@@ -631,7 +642,7 @@ p {
                         "bloco05"
                         "bloco07";
         grid-template-columns: 1fr;
-        padding: 10%;
+        padding: 5%;
     }
 
     .bloco03, .bloco04, .bloco06, .bloco08 {
@@ -737,10 +748,10 @@ p {
                             "prod04"
                             "prod05";
         grid-template-columns: 1fr;
-        padding: 10%;
+        padding: 5%;
     }
 
-    .prod03, .prod06 .prod07 {
+    .prod03, .prod06, .prod07 {
         display: none;
     }
 
@@ -788,6 +799,15 @@ p {
     font-size: 3rem;
 }
 
+@media screen and (max-width: 1024px)  {
+
+    .conteudoParalax h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+}
+
 /* TESTEMUNHAIS */
 
 .secTestimonial {
@@ -809,16 +829,16 @@ p {
   .depoimento {
     font-family: var(--barlow);
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
-  .nomeCliente {
+  .cargoCliente {
     font-family: var(--redrose);
     font-size: 1rem;
     color: var(--azul);
   }
 
-  .cargoCliente {
+  .empresaCliente {
     font-family: var(--barlow);
     font-size: 0.8rem;
   }
@@ -853,17 +873,13 @@ p {
   .depoimento {
     font-family: var(--barlow);
     font-weight: 300;
-    font-size: 0.8rem;
-  }
-
-  .nomeCliente {
-    font-family: var(--redrose);
     font-size: 1rem;
   }
 
-  .cargoCliente {
+
+  .empresaCliente {
     font-family: var(--barlow);
-    font-size: 0.8rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -926,11 +942,11 @@ p {
 }
 
 .artigos p {
-    font-family: var(--barlow);
+    font-family: 'Barlow', sans-serif; 
     color: white;
-    font-weight: 200;
-    line-height: 1.2rem;
     font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
 }
 
 .btnLeiaMais {
@@ -979,13 +995,9 @@ p {
 
     .artigos h1 {
         font-size: 1.6rem;
-        line-height: 1.5rem;
+        line-height: 1.6rem;
     }
     
-    .artigos p {
-        font-size: 1.2rem;
-        line-height: 1rem;
-    }  
 }
 
 /* ---------------------------------------SOMOS-------------------------------------- */

@@ -40,7 +40,7 @@
         </div>
         <div class="cartaoIcones">
             <img class="imgIcones" src="imgs/icon-embarques.svg" alt="">
-            <h1 class="titIcones">+200k</h1>
+            <h1 class="titIcones">+R$ 200mi</h1>
             <h6 class="descIcones">embarques gerenciados</h6>
         </div>
     </div>
@@ -52,7 +52,7 @@
     <div class="stage conteudoHistoria">
         <div class="imgHistoria"><img class="imgBrasao" src="imgs/logo_ctres_brazao.svg" alt="Brasao"></div>
         <div class="historia">
-            <p>
+            <h6>
                 Desde sua fundação em 2004, o GRUPO CTRÊS tem sido mais do que apenas uma corretora. É a materialização de uma visão que vai além do convencional. Fundada sobre os pilares de inovação, personalização e parceria, a CTRÊS emergiu como uma força pioneira no mercado de seguros.
                 <br><br>
                 A corretora carrega em sua essência a crença de que a excelência no atendimento ao cliente é construída não apenas através de soluções customizadas, mas também através da estruturação de alianças poderosas. Estas parcerias estratégicas, cuidadosamente cultivadas, permitem à Ctrês agregar valor inigualável e ir sempre além na customização de seus serviços aos seus clientes.
@@ -60,7 +60,7 @@
                 Ao longo dos anos, O GRUPO CTRÊS não só consolidou sua posição no mercado, mas também redefiniu o que significa ser uma corretora e consultoria de seguros. Em cada interação, em cada solução, em cada parceria, ressoa o compromisso da Ctrês de garantir que seus clientes tenham o atendimento personalizando.
                 <br><br>
                 Ao escolher O GRUPO CTRÊS, você está optando por uma corretora especialista; está se aliando a um legado de excelência, inovação e dedicação inabalável ao cliente
-            </p>
+            </h6>
         </div>
     </div>     
 </section>

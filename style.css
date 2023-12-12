@@ -9,6 +9,8 @@
     --azul: #0b3b5c;
     --cinza: #6c6771;
     --vermelho: #e2271b;
+    --laranja: #E9511E;
+    --azulClaro: #004A87;
     --redrose: 'Red Rose', serif;
     --barlow: 'Barlow', sans-serif; 
 }
@@ -183,33 +185,33 @@ body, html {
 
 .titHero {
     font-family: var(--redrose);
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding: 0 !important;
-    line-height: 2.4rem;
-    width: 40%;
+    line-height: 2.8rem;
+    width: 60%;
     color: white;
     z-index: 3;
 }
 
 .subHero {
     font-family: var(--barlow);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     padding: 0;
-    width: 40%;
+    width: 60%;
     color: white;
     z-index: 3;
 }
 
 .btnConheca {
     font-family: 'Barlow', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
     border: 1px solid white !important;
     color: white;
     background-color: rgba(0, 0, 0, 0);
     padding: 5px 15px;
-    width: 100px;
+    width: 120px;
     margin-top: 20px;
 }
 
@@ -242,10 +244,12 @@ body, html {
 
 }
 
+
 /* SOMOS */
 
 .somos {
     padding: 0 10%;
+    background-color: var(--vermelho);
 }
 
 .conteudoSomos {
@@ -254,19 +258,21 @@ body, html {
 
 .secao {
     font-size: 0.7rem;
-    color: var(--vermelho)
+    color: white;
 }
 
 .titulo {
     font-family: var(--redrose);
-    color: var(--azul);
+    color: white;
+    font-size: 3rem;
 }
 
 p {
     font-family: 'Barlow', sans-serif; 
-    color: var(--cinza);
-    font-size: 1rem;
-    line-height: 1.2rem;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 300;
 }
 
 .btnSaibaMais {
@@ -274,7 +280,7 @@ p {
     font-size: 0.8rem;
     font-weight: 500;
     border: none;
-    color: var(--azul);
+    color: white;
     background-color: transparent;
     padding: 0;
 }
@@ -293,29 +299,412 @@ p {
 /* ABORDAGEM */
 
 .abordagem {
-    padding: 0 10%;
+    padding: 5% 10%;
 }
-.conteudoAbordagem {
-    padding-bottom: 5%;
+
+#fluxoCiclico {
+    display: grid;
+    grid-template:  "ponto1 ponto2 ponto3" 150px
+                    "ponto1 ponto5 ponto4" 150px
+    ;
+    gap: 5px;
+}
+
+.conteudoAbordagem > h1 {
+    font-family: var(--redrose);
+    color: var(--azul);
+    z-index: 1;
+    font-size: 3rem;
+}
+
+.ponto {
+    border-radius: 10px;
+    color: white;
+    font-family: var(--barlow);
+    padding: 30px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
-.conteudoAbordagem img {
-    width: 80%;
+.ponto h1 {
+    font-family: var(--redrose);
+    font-size: 1.8rem;
+    text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .conteudoAbordagem img {
-        width: 100%;
+.ponto img {
+    color: white;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#ponto1 {
+    grid-area: ponto1;
+    background-color: var(--azul);
+    position: relative;
+}
+
+#ponto1 i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+#ponto1 h1 {
+    align-self: top !important;
+}
+
+#ponto2 {
+    grid-area: ponto2;
+    background-color: var(--cinza);
+    position: relative;
+}
+
+#ponto2 i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+#ponto3 {
+    grid-area: ponto3;
+    background-color: var(--vermelho);
+    position: relative;
+}
+
+#ponto3 i {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+}
+
+#ponto4 {
+    grid-area: ponto4;
+    background-color: var(--azulClaro);
+    position: relative;
+}
+
+#ponto4 i {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.2rem;
+}
+
+
+#ponto5 {
+    grid-area: ponto5;
+    background-color: var(--laranja);
+    position: relative;
+}
+
+#ponto5 i {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 1.2rem;
+}
+
+.modalAbordagem {
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalAbordagemConteudo {
+    height: 50%;
+    width: 40%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#resultAbordagem {
+    position: relative;
+    padding: 50px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#resultAbordagem > i {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#resultAbordagem > h1 {
+    font-family: var(--redrose);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Produtos e Serviços */
+
+.produtosServicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoProdutosServicos {
+    display: grid;
+    grid-template:  "bloco01 bloco01 bloco02 bloco02" 250px
+                    "bloco03 bloco04 bloco02 bloco02" 250px
+                    "bloco03 bloco05 bloco05 bloco06" 250px
+                    "bloco07 bloco07 bloco08 bloco08" 250px;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1% 1%;
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+.bloco {
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.bloco h1 {
+    font-family: var(--redrose);
+    font-size: 2rem;
+    color: var(--vermelho);
+}
+
+.bloco h6 {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.bloco01 {
+    grid-area: bloco01;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloco02 {
+    grid-area: bloco02;
+    background-image: url("imgs/imgLog.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bloco03 {
+    grid-area: bloco03;
+    background-image: url("imgs/logCaminhao.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bloco04 {
+    grid-area: bloco04;
+    background-image: url("imgs/logNavio.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bloco05 {
+    grid-area: bloco05;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnProdSaiba {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid var(--azul) !important;
+    color: var(--azul);
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 15px;
+    width: 130px;
+    margin-top: 10px;
+}
+
+.btnProdSaiba a:link, a:visited {
+    text-decoration: none;
+}
+
+.btnProdSaiba:hover{
+    color: white;
+    background-color: var(--azul);
+}
+
+
+.bloco06 {
+    grid-area: bloco06;
+    background-image: url("imgs/cadeiaLog.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bloco07 {
+    grid-area: bloco07;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bloco08 {
+    grid-area: bloco08;
+    background-image: url("imgs/logCadeia.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudoProdutosServicos {
+        grid-template:  "bloco01 bloco01 bloco02 bloco02" 250px
+                        "bloco01 bloco01 bloco02 bloco02" 250px
+                        "bloco03 bloco03 bloco05 bloco05" 250px
+                        "bloco03 bloco03 bloco05 bloco05" 250px
+                        "bloco07 bloco07 bloco07 bloco07" 250px;
     }
 
+    .bloco04, .bloco06, .bloco08 {
+        display: none;
+    }
+
+    .bloco {
+        padding: 10%;
+    }
 }
+
+/* PRODUTOS */
+
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteudoProdutos {
+    display: grid;
+    grid-template:      "prod02 prod02 prod01 prod01" 250px
+                        "prod03 prod04 prod04 prod06" 250px
+                        "prod05 prod05 prod07 prod06" 250px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 1% 1%;
+    background-color:#0b3c5c4c;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudoProdutos {
+        grid-template:      "prod01 prod01 prod01 prod01" 250px
+                            "prod03 prod03 prod04 prod04" 250px
+                            "prod05 prod05 prod06 prod06" 250px;
+    }
+
+    .prod02, .prod07 {
+        display: none;
+    }
+
+    .produto {
+        padding: 10%;
+}
+
+
+}
+
+.produto {
+        border-radius: 10px;
+        background-color: white;
+        padding: 5%;
+}
+
+.produto h1 {
+    font-family: var(--redrose);
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+.produto h6 {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.prodTitulo {
+    grid-area: prodTitulo;
+}
+
+.prod01 {
+    grid-area: prod01;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod02 {
+    grid-area: prod02;
+    background-image: url("imgs/imagProdEscritorio.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.prod03 {
+    grid-area: prod03;
+    background-image: url("imgs/imgProsEscritorio01.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.prod04 {
+    grid-area: prod04;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod05 {
+    grid-area: prod05;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod06 {
+    grid-area: prod06;
+    background-image: url("imgs/imgProdFamilia.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.prod07 {
+    grid-area: prod07;
+    background-image: url("imgs/imgProdJustica.png");
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* PARALAX */
 
 .paralax {
-    height: 50vh;
+    height: 80vh;
     background-color: red;
     background-image: url("imgs/fundoParalax.png");
     background-attachment: fixed;
@@ -623,9 +1012,13 @@ p {
     width: 80%;
 }
 
-.historia p {
+.historia h6 {
     font-family: var(--barlow);
     font-size: 1rem;
+    font-weight: 300;
+    padding: 0;
+    width: 100%;
+    color: #000;
 }
 
 @media screen and (max-width: 768px) {
@@ -753,7 +1146,7 @@ p {
     font-family: var(--redrose);
     text-align: center;
     color: var(--azul);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .descIcones {
@@ -804,6 +1197,16 @@ p {
 
 .conteudoPost h1 {
     margin-bottom: 20px;
+    font-family: var(--redrose);
+}
+
+.conteudoPost p {
+    font-family: var(--barlow);
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 0;
+    width: 100%;
+    color: #000;
 }
 
 .autor {

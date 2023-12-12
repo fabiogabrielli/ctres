@@ -25,7 +25,7 @@
       <a href="index.php">INÍCIO</a>
       <a href="/index.php#somos">QUEM SOMOS</a>
       <a href="somos.php">30 ANOS DE HISTÓRIA</a>
-      <a href="#">PRODUTOS E SERVIÇOS</a>
+      <a href="produtos-servicos.php">PRODUTOS E SERVIÇOS</a>
       <a href="/index.php#secArtigos">CONTEÚDO (BLOG)</a>
     </div>
     <div class="redessociais">

@@ -9,14 +9,14 @@
           <div class="stage conteudoHero">
             <h1 class="titHero">Somos mais do que uma corretora.</h1>
             <h6 class="subHero">Somos consultores estratégicos, dedicados a construir soluções sob medida em logística e seguros.</h6>
-            <a href="#somos"><button type="button" class="btnConheca">SAIBA MAIS</button></a>
+            <a href="#somos"><button type="button" class="btnConheca">Saiba Mais</button></a>
           </div>
       </div>
     <div class="carousel-item hero03">
       <div class="stage conteudoHero">
         <h1 class="titHero">Impactos Estratégicos da Lei 14.599/23 no Mercado de Seguros de Transporte Rodoviário.</h1>
         <h6 class="subHero">A recente Lei 14.599/23, promulgada em junho de 2023, representa um divisor de águas no cenário dos seguros de transporte rodoviário no Brasil. Suas implicações vão além das simples mudanças normativas, refletindo em toda a cadeia logística e no mercado segurador.</h6>
-        <button class="btnConheca">LEIA MAIS</button>
+        <button class="btnConheca">Leia Mais</button>
       </div>
   </div>
     </div>
@@ -36,7 +36,6 @@
 
 <section id="somos" class="somos">
     <div class="stage conteudoSomos">
-      <h6 class="secao">LOGÍSTICA É O NOSSO DNA</h6> 
       <h1 class="titulo">Somos o Grupo CTrês</h1>
       <p>Acreditamos na singularidade de cada cliente, reconhecendo suas histórias, necessidades e desafios únicos.
 
@@ -56,12 +55,93 @@
 <!-- INICIO ABORDAGEM CONSULTIVA -->
 
 <section class="abordagem">
-  <div class="stage conteudoAbordagem">   
-    <img src="imgs/abordagemConsultiva.png" alt="abordagem consultiva">
-  </div>  
+  <div class="stage conteudoAbordagem">
+    <h1>Abordagem Consultiva</h1>
+    <div id="fluxoCiclico">
+        <div class="ponto" id="ponto1"><h1>Compreender o seu negócio<a onclick="abreModal('ponto1')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></div>
+        <div class="ponto" id="ponto2"><h1>Mapeamento dos Riscos<a onclick="abreModal('ponto2')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></i></div>
+        <div class="ponto" id="ponto3"><h1>Personalização de Estratégias<a onclick="abreModal('ponto3')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-down"></i></div>
+        <div class="ponto" id="ponto4"><h1>Entrega e Comprometimento<a onclick="abreModal('ponto4')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
+        <div class="ponto" id="ponto5"><h1>Monitoramento Contínuo<a onclick="abreModal('ponto5')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
+      </div>
+  </div>
 </section>
 
+<div class="modalAbordagem" id="modalAbordagem">
+  <div class="modalAbordagemConteudo">
+    <div id="resultAbordagem">
+      <i onclick="fecharModalAbordagem()" class="fa-solid fa-circle-xmark"></i>
+      <h1 id="textoAbordagem"></h1>
+    </div>
+  </div>
+</div>
+
 <!-- FIM ABORDAGEM CONSULTIVA -->
+
+<!-- INICIO SERVICOS -->
+
+<section class="produtosServicos">
+  <div class="conteudoProdutosServicos">
+    <div class="bloco bloco01">
+      <h1>Soluções em Logística</h1>
+      <h6>A logística é o coração de muitos negócios, e seu sucesso está na capacidade de se adaptar e responder rapidamente às mudanças. Na Ctrês, reconhecemos a importância de uma logística eficiente. Por isso, vamos além dos padrões tradicionais, oferecendo consultoria avançada e soluções que atendem às necessidades específicas da sua operação. Nosso objetivo é garantir que sua cadeia de suprimentos seja otimizada, resiliente e alinhada com seus objetivos de negócios.</h6>
+    </div>
+    
+    <div class="bloco bloco02"></div>
+    
+    <div class="bloco bloco03"></div>
+    
+    <div class="bloco bloco04"></div>
+    
+    <div class="bloco bloco05">
+      <h1>Estratégia e Gestão de Riscos</h1>
+      <h6>A prevenção é a chave para uma logística eficiente. Na Ctrês, não apenas reagimos aos desafios, mas também trabalhamos proativamente para identificar e mitigar riscos. Nossos serviços consultivos incluem:</h6>
+      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+    </div>
+    
+    <div class="bloco bloco06"></div>
+
+    <div class="bloco bloco07">
+      <h1>Seguros Especializados para a Cadeia Logística</h1>
+      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+    </div>
+
+    <div class="bloco bloco08"></div>
+  </div>
+</section>
+
+<!-- FIM SERVICOS -->
+
+<!-- INICIO PRODUTOS -->
+
+<section class="produtos">
+  <div class="conteudoProdutos">
+    <div class="prod01 produto">
+      <h1>Seguros Corporativos e Benefícios Empresariais</h1>
+      <h6>Proteção Integral para Sua Empresa: Na Ctrês, entendemos profundamente os desafios do mercado corporativo. Com nossa vasta expertise em seguros empresariais, desenvolvemos soluções sob medida, garantindo que sua empresa opere com a máxima confiança e segurança. Estamos comprometidos em proteger seus ativos valiosos e otimizar seu capital, enquanto também cuidamos do bem-estar e satisfação de sua equipe.</h6>
+    </div>
+    <div class="prod02 produto"></div>
+
+    <div class="prod03 produto"></div>
+
+    <div class="prod04 produto">
+      <h1>Segurança Patrimonial e Otimização de Capital</h1>
+      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+    </div>
+
+    <div class="prod05 produto">
+      <h1>Proteção e Valorização do Capital Humano</h1>
+      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+    </div>
+
+    <div class="prod06 produto"></div>
+
+    <div class="prod07 produto"></div>
+  </div>
+</section>
+
+<!-- FIM PRODUTOS -->
+
 
 <!-- INICIO PARALAX-->
 
@@ -69,7 +149,6 @@
   <div class="stage conteudoParalax">
     <h1>O que os clientes falam de nós</h1>
   </div>
-
 </div>
 
 <!-- FIM PARALAX-->

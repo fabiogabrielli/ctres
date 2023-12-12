@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#fluxoCiclico {
+    display: grid;
+    grid-template:  "ponto5 ponto1 ponto1 ponto2" 150px
+                    "ponto5 ponto4 ponto3 ponto3" 150px
+    ;
+}
+
+#ponto1 {
+    grid-area: ponto1;
+    border: 1px red solid;
+}
+
+#ponto2 {
+    grid-area: ponto2;
+    border: 1px red solid;
+}
+
+#ponto3 {
+    grid-area: ponto3;
+    border: 1px red solid;
+}
+
+#ponto4 {
+    grid-area: ponto4;
+    border: 1px red solid;
+}
+
+#ponto5 {
+    grid-area: ponto5;
+    border: 1px red solid;
+}

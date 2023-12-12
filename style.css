@@ -453,6 +453,58 @@ p {
     text-align: center;
 }
 
+@media screen and (max-width: 1024px) {
+    #fluxoCiclico {
+        grid-template:  "ponto1" 130px
+                        "ponto2" 130px
+                        "ponto3" 130px
+                        "ponto4" 130px
+                        "ponto5" 130px;
+        grid-template-columns: 1fr;                
+    }
+
+    .ponto i {
+        display: none;
+    }
+
+    .ponto h1 {
+        font-family: var(--redrose);
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .conteudoAbordagem > h1 {
+        font-family: var(--redrose);
+        color: var(--azul);
+        z-index: 1;
+        font-size: 2rem !important;
+    }
+
+    .modalAbordagem {
+        position: fixed;
+        z-index: 100;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .modalAbordagemConteudo {
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+
+}
+
 /* Produtos e Serviços */
 
 .produtosServicos {
@@ -469,8 +521,7 @@ p {
                     "bloco07 bloco07 bloco08 bloco08" 250px;
     gap: 15px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 1% 1%;
-    height: 100%;
+    padding: 1%;
     background-color: rgb(231, 231, 231);
 }
 
@@ -575,14 +626,15 @@ p {
 
 @media screen and (max-width: 1024px) {
     .conteudoProdutosServicos {
-        grid-template:  "bloco01 bloco01 bloco02 bloco02" 250px
-                        "bloco01 bloco01 bloco02 bloco02" 250px
-                        "bloco03 bloco03 bloco05 bloco05" 250px
-                        "bloco03 bloco03 bloco05 bloco05" 250px
-                        "bloco07 bloco07 bloco07 bloco07" 250px;
+        grid-template:  "bloco01" 
+                        "bloco02" 250px
+                        "bloco05"
+                        "bloco07";
+        grid-template-columns: 1fr;
+        padding: 10%;
     }
 
-    .bloco04, .bloco06, .bloco08 {
+    .bloco03, .bloco04, .bloco06, .bloco08 {
         display: none;
     }
 
@@ -605,27 +657,9 @@ p {
                         "prod03 prod04 prod04 prod06" 250px
                         "prod05 prod05 prod07 prod06" 250px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 10px;
-    padding: 1% 1%;
+    gap: 15px;
+    padding: 1%;
     background-color:#0b3c5c4c;
-}
-
-@media screen and (max-width: 1024px) {
-    .conteudoProdutos {
-        grid-template:      "prod01 prod01 prod01 prod01" 250px
-                            "prod03 prod03 prod04 prod04" 250px
-                            "prod05 prod05 prod06 prod06" 250px;
-    }
-
-    .prod02, .prod07 {
-        display: none;
-    }
-
-    .produto {
-        padding: 10%;
-}
-
-
 }
 
 .produto {
@@ -645,10 +679,6 @@ p {
     font-size: 1rem;
     line-height: 1.2rem;
     font-weight: 300;
-}
-
-.prodTitulo {
-    grid-area: prodTitulo;
 }
 
 .prod01 {
@@ -698,6 +728,25 @@ p {
     background-image: url("imgs/imgProdJustica.png");
     background-size: cover;
     background-position: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudoProdutos {
+        grid-template:      "prod02" 250px
+                            "prod01" 
+                            "prod04"
+                            "prod05";
+        grid-template-columns: 1fr;
+        padding: 10%;
+    }
+
+    .prod03, .prod06 .prod07 {
+        display: none;
+    }
+
+    .produto {
+        padding: 10%;
+    }
 }
 
 

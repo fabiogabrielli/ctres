@@ -26,7 +26,7 @@
       <a href="index.php#somos">QUEM SOMOS</a>
       <a href="somos.php">30 ANOS DE HISTÓRIA</a>
       <a href="index.php#servicos">SERVIÇOS</a>
-      <a href="#produtos">PRODUTOS</a>
+      <a href="index.php#produtos">PRODUTOS</a>
       <a href="index.php#secArtigos">CONTEÚDO (BLOG)</a>
     </div>
     <div class="redessociais">

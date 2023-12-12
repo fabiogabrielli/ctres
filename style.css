@@ -1345,14 +1345,15 @@ p {
     font-family: var(--redrose);
     font-size: 3rem;
     padding: 0 !important;
-    line-height: 2.8rem;
+    line-height: 3rem;
     color: white;
-    z-index: 3;
+    z-index: 2;
 }
 
 .secServicos {
     padding: 5% 10%;
     background-color: rgb(231, 231, 231);
+    margin-top: -100px;
 }
 
 .conteudoServicos {
@@ -1361,12 +1362,14 @@ p {
                     "serv02 serv03";
     grid-template-columns: 1fr 1fr;
     gap: 15px;
+
 }
 
 .servico {
     border-radius: 10px;
     background-color: white;
     padding: 5%;
+    z-index: 5 !important;
 }
 
 .conteudoServicos h1 {
@@ -1423,10 +1426,11 @@ p {
 
     .heroServConteudo h1 {
         font-family: var(--redrose);
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         padding: 0 !important;
-        line-height: 1.6rem;
+        line-height: 1.8rem;
         width: 100%;
+        text-align: center;
     }
     
     

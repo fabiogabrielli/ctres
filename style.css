@@ -103,7 +103,7 @@ body, html {
 
 /* CAROUSEL */
 .carousel-inner {
-    height: 80vh !important;
+    height: 90vh !important;
 }
 
 .carousel-item {
@@ -112,8 +112,8 @@ body, html {
 
 .hero01 {
     height: 100%;
-    background-image: url("imgs/hero.png");
-    background-position: center;
+    background-image: url("imgs/imgLog.png");
+    background-position: bottom center;
     background-size: cover;
     padding: 0 10%;
     margin: auto;
@@ -133,35 +133,14 @@ body, html {
 
 .hero02 {
     height: 100%;
-    background-image: url("imgs/hero.png");
-    background-position: center;
+    background-image: url("imgs/heroArtigo.png");
+    background-position: right;
     background-size: cover;
     padding: 0 10%;
     margin: auto;
 }
 
 .hero02::after {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 1;
-}
-
-.hero03 {
-    height: 100%;
-    background-image: url("imgs/heroArtigo.png");
-    background-position: center;
-    background-size: cover;
-    padding: 0 10%;
-    margin: auto;
-}
-
-.hero03::after {
     content: " ";
     display: block;
     position: absolute;
@@ -235,7 +214,7 @@ body, html {
     
     .subHero {
         font-family: var(--barlow);
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 300;
         padding: 0;
         width: 100%;
@@ -461,9 +440,14 @@ p {
 }
 
 #resultAbordagem > h1 {
-    font-family: var(--redrose);
-    font-size: 1.5rem;
+    font-family: var(--barlow);
+    font-size: 1.3rem;
     text-align: center;
+    font-weight: 300;
+}
+
+.titAbordagem {
+    font-family: var(--redrose);
 }
 
 @media screen and (max-width: 1024px) {
@@ -1324,8 +1308,133 @@ p {
     width: 100%;
 }
 
+/* --------------------------------------- SERVIÇOS -------------------------------------- */
 
-/* ---------------------------------------FOOTER-------------------------------------- */
+.secHeroServicos {
+    height: 80vh;
+    background-color: #6c6771;
+    padding: 0 10%;
+    background-image: url("imgs/heroArtigo.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.secHeroServicos::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.heroServConteudo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.heroServConteudo h1 {
+    width: 60%;
+    font-family: var(--redrose);
+    font-size: 3rem;
+    padding: 0 !important;
+    line-height: 2.8rem;
+    color: white;
+    z-index: 3;
+}
+
+.secServicos {
+    padding: 5% 10%;
+    background-color: rgb(231, 231, 231);
+}
+
+.conteudoServicos {
+    display: grid;
+    grid-template:  "serv01 serv01" 
+                    "serv02 serv03";
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.servico {
+    border-radius: 10px;
+    background-color: white;
+    padding: 5%;
+}
+
+.conteudoServicos h1 {
+    font-family: var(--redrose);
+    font-size: 2rem;
+    color: var(--vermelho);
+}
+
+.conteudoServicos h6 {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+}
+
+.conteudoServicos p {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
+    color: #000;
+}
+
+.serv01 {
+    grid-area: serv01;
+    padding: 2.5% !important;
+}
+
+.serv02 {
+    grid-area: serv02;
+}
+
+.serv03 {
+    grid-area: serv03;
+}
+
+
+@media screen and (max-width: 480px) {
+    .conteudoServicos {
+        display: grid;
+        grid-template:  "serv01" 
+                        "serv02" 
+                        "serv03";
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    .servico {
+        padding: 10% !important;
+    }
+
+    .secServicos {
+        padding: 5%;
+    }
+
+    .heroServConteudo h1 {
+        font-family: var(--redrose);
+        font-size: 1.5rem;
+        padding: 0 !important;
+        line-height: 1.6rem;
+        width: 100%;
+    }
+    
+    
+}
+
+
+
+/* --------------------------------------- FOOTER -------------------------------------- */
 
 .footer {
     padding: 0 10%;

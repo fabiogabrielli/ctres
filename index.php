@@ -12,7 +12,7 @@
             <a href="#somos"><button type="button" class="btnConheca">Saiba Mais</button></a>
           </div>
       </div>
-    <div class="carousel-item hero03">
+    <div class="carousel-item hero02">
       <div class="stage conteudoHero">
         <h1 class="titHero">Impactos Estratégicos da Lei 14.599/23 no Mercado de Seguros de Transporte Rodoviário.</h1>
         <h6 class="subHero">A recente Lei 14.599/23, promulgada em junho de 2023, representa um divisor de águas no cenário dos seguros de transporte rodoviário no Brasil. Suas implicações vão além das simples mudanças normativas, refletindo em toda a cadeia logística e no mercado segurador.</h6>
@@ -80,7 +80,7 @@
 
 <!-- INICIO SERVICOS -->
 
-<section class="produtosServicos">
+<section id="servicos" class="produtosServicos">
   <div class="conteudoProdutosServicos">
     <div class="bloco bloco01">
       <h1>Soluções em Logística</h1>
@@ -96,14 +96,14 @@
     <div class="bloco bloco05">
       <h1>Estratégia e Gestão de Riscos</h1>
       <h6>A prevenção é a chave para uma logística eficiente. Na Ctrês, não apenas reagimos aos desafios, mas também trabalhamos proativamente para identificar e mitigar riscos. Nossos serviços consultivos incluem:</h6>
-      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+      <a href="servicos.php"><button type="button" class="btnProdSaiba">Saiba Mais</button></a>
     </div>
     
     <div class="bloco bloco06"></div>
 
     <div class="bloco bloco07">
       <h1>Seguros Especializados para a Cadeia Logística</h1>
-      <button action="#" type="button" class="btnProdSaiba">Saiba Mais</button>
+      <a href="servicos.php"><button type="button" class="btnProdSaiba">Saiba Mais</button></a>
     </div>
 
     <div class="bloco bloco08"></div>
@@ -114,7 +114,7 @@
 
 <!-- INICIO PRODUTOS -->
 
-<section class="produtos">
+<section id="produtos" class="produtos">
   <div class="conteudoProdutos">
     <div class="prod01 produto">
       <h1>Seguros Corporativos e Benefícios Empresariais</h1>
@@ -141,7 +141,6 @@
 </section>
 
 <!-- FIM PRODUTOS -->
-
 
 <!-- INICIO PARALAX-->
 

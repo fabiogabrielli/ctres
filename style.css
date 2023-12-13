@@ -232,11 +232,11 @@ body, html {
 
 .somos {
     padding: 0 10%;
-    background-color: var(--vermelho);
+    background-color: var(--azul);
 }
 
 .conteudoSomos {
-    padding: 5% 0;
+    padding: 5% 0; 
 }
 
 .secao {
@@ -260,7 +260,7 @@ p {
 
 .btnSaibaMais {
     font-family: 'Barlow', sans-serif;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 500;
     border: none;
     color: white;
@@ -285,7 +285,6 @@ p {
         font-size: 1rem;
         line-height: 1.2rem;
     }
-
 }
 
 /* ABORDAGEM */
@@ -1445,7 +1444,7 @@ p {
     background-color: #004a87;
 }
 .conteudoFooter {
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 .footer h6 {

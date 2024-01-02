@@ -18,6 +18,42 @@ $(document).ready(function(){
 
 */
 
+// LAZY LOAD
+
+document.addEventListener("DOMContentLoaded", function() {
+  var lazySections = [].slice.call(document.querySelectorAll(".lazy-load-section"));
+
+  if ("IntersectionObserver" in window) {
+      let lazySectionObserver = new IntersectionObserver(function(entries, observer) {
+          entries.forEach(function(entry) {
+              if (entry.isIntersecting) {
+                  let lazySection = entry.target;
+
+                  // Aqui, carregue o conteúdo da seção.
+                  // Por exemplo, substituindo um placeholder pelo conteúdo real,
+                  // ou fazendo uma requisição AJAX para buscar o conteúdo.
+                  loadSectionContent(lazySection);
+
+                  lazySectionObserver.unobserve(lazySection);
+              }
+          });
+      });
+
+      lazySections.forEach(function(lazySection) {
+          lazySectionObserver.observe(lazySection);
+      });
+  } else {
+      // Fallback para navegadores que não suportam IntersectionObserver
+  }
+});
+
+function loadSectionContent(section) {
+  // Implemente a lógica para carregar o conteúdo da seção aqui.
+  // Pode ser uma substituição de placeholder, carregamento de imagem, etc.
+}
+
+// FIM LAZY LOAD
+
  // TOOLTIP
 
 const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

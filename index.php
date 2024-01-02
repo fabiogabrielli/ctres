@@ -54,7 +54,7 @@
 
 <!-- INICIO ABORDAGEM CONSULTIVA -->
 
-<section class="abordagem">
+<section class="abordagem lazy-load-section">
   <div class="stage conteudoAbordagem">
     <h1>Abordagem Consultiva</h1>
     <div id="fluxoCiclico">
@@ -90,7 +90,7 @@
 
 <!-- INICIO SERVICOS -->
 
-<section id="servicos" class="produtosServicos">
+<section id="servicos" class="produtosServicos lazy-load-section">
   <div class="conteudoProdutosServicos">
     <div class="bloco bloco01">
       <h1>Soluções em Logística</h1>
@@ -124,7 +124,7 @@
 
 <!-- INICIO PRODUTOS -->
 
-<section id="produtos" class="produtos">
+<section id="produtos" class="produtos lazy-load-section">
   <div class="conteudoProdutos">
     <div class="prod01 produto">
       <h1>Seguros Corporativos e Benefícios Empresariais</h1>
@@ -154,7 +154,7 @@
 
 <!-- INICIO PARALAX-->
 
-<div class="paralax">
+<div class="paralax lazy-load-section">
   <div class="stage conteudoParalax">
     <h1>O que os clientes falam de nós</h1>
   </div>
@@ -164,7 +164,7 @@
 
 <!-- INICIO TESTEMUNHOS -->
 
-<section class="secTestimonial">
+<section class="secTestimonial lazy-load-section">
   <div class="stage testimonial-carousel">
       <div class="testimonial">
         <h6 class="depoimento">O Grupo CTRÊS conta com profissionais qualificados e dedicados para atender as nossas necessidades como clientes, posso dizer que em 4 anos de parceria nunca tivemos um caso, em que não tive retorno rápido e bom atendimento.</h6>
@@ -193,7 +193,7 @@
 
 <!-- INICIO ARTIGOS --> 
 
-<section id="secArtigos" class="secArtigos">
+<section id="secArtigos" class="secArtigos lazy-load-section">
   <div class="stage artigos">
     <div class="artigo01">
       <h6 class="secao">ARTIGO</h6>

@@ -18,6 +18,19 @@ $(document).ready(function(){
 
 */
 
+ // TOOLTIP
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+
+
+// TOOLTIP
+
 // CAROUSEL DEPOIMENTOS
 
 $(document).ready(function(){
@@ -75,3 +88,4 @@ $(document).ready(function(){
 
    // FIM MODAL ABORDAGEM
   
+

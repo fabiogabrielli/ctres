@@ -46,7 +46,7 @@
         <br><br>Vamos além do tradicional papel de corretora. Atuamos como consultores estratégicos, com foco em desenvolver soluções sob medida que resultem em redução de custos, aumento de eficiência e fortalecimento do seu balanço.
         
         <br><br>O Grupo CTrês valoriza a individualidade da sua empresa, proporcionando expertise e soluções alinhadas às melhores práticas do mercado e verdadeiramente adaptadas às suas demandas.</p>
-        <a href="somos.php"><button class="btnSaibaMais">SAIBA MAIS SOBRE A HISTÓRIA DE SUCESSO DO GRUPO CTRÊS&nbsp;<i class="fa-solid fa-circle-arrow-right"></i></button></a>
+        <a href="somos.php"><button class="btnSaibaMais">Grupo CTrês</button></a>
     </div>
 </section>
 
@@ -58,16 +58,26 @@
   <div class="stage conteudoAbordagem">
     <h1>Abordagem Consultiva</h1>
     <div id="fluxoCiclico">
-        <div class="ponto" id="ponto1"><h1>Compreender o seu negócio<a onclick="abreModal('ponto1')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></div>
-        <div class="ponto" id="ponto2"><h1>Mapeamento dos Riscos<a onclick="abreModal('ponto2')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></i></div>
-        <div class="ponto" id="ponto3"><h1>Personalização de Estratégias<a onclick="abreModal('ponto3')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-down"></i></div>
-        <div class="ponto" id="ponto4"><h1>Entrega e Comprometimento<a onclick="abreModal('ponto4')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
-        <div class="ponto" id="ponto5"><h1>Monitoramento Contínuo<a onclick="abreModal('ponto5')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
+        <div data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Clique no botão +" class="ponto" id="ponto1"><h1>Compreender o seu negócio<a onclick="abreModal('ponto1')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></div>
+        <div data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Clique no botão +" class="ponto" id="ponto2"><h1>Mapeamento dos Riscos<a onclick="abreModal('ponto2')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></i></div>
+        <div data-bs-toggle="tooltip" data-bs-placement="top"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Clique no botão +" class="ponto" id="ponto3"><h1>Personalização de Estratégias<a onclick="abreModal('ponto3')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-down"></i></div>
+        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Clique no botão +" class="ponto" id="ponto4"><h1>Entrega e Comprometimento<a onclick="abreModal('ponto4')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
+        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
+        data-bs-custom-class="custom-tooltip"
+        data-bs-title="Clique no botão +" class="ponto" id="ponto5"><h1>Monitoramento Contínuo<a onclick="abreModal('ponto5')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
       </div>
   </div>
 </section>
 
-<div class="modalAbordagem" id="modalAbordagem">
+<div onclick="fecharModalAbordagem()" class="modalAbordagem" id="modalAbordagem">
   <div class="modalAbordagemConteudo">
     <div id="resultAbordagem">
       <i onclick="fecharModalAbordagem()" class="fa-solid fa-circle-xmark"></i>

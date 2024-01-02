@@ -262,14 +262,17 @@ p {
     font-family: 'Barlow', sans-serif;
     font-size: 1rem;
     font-weight: 500;
-    border: none;
+    border: 1px solid white !important;
     color: white;
-    background-color: transparent;
-    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+    padding: 5px 15px;
+    width: 130px;
+    margin-top: 20px;
 }
 
 .btnSaibaMais:hover {
-    font-weight: 700;
+    color: var(--azul);
+    background-color: white;
 }
 
 @media screen and (max-width: 768px) {
@@ -657,7 +660,7 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 15px;
     padding: 1%;
-    background-color:#0b3c5c4c;
+    background-color: var(--azul);
 }
 
 .produto {

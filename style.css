@@ -112,7 +112,7 @@ body, html {
 
 .hero01 {
     height: 100%;
-    background-image: url("imgs/imgLog.png");
+    background-image: url("imgs/imgLog.webp");
     background-position: bottom center;
     background-size: cover;
     padding: 0 10%;
@@ -133,7 +133,7 @@ body, html {
 
 .hero02 {
     height: 100%;
-    background-image: url("imgs/heroArtigo.png");
+    background-image: url("imgs/heroArtigo.webp");
     background-position: right;
     background-size: cover;
     padding: 0 10%;
@@ -555,21 +555,21 @@ p {
 
 .bloco02 {
     grid-area: bloco02;
-    background-image: url("imgs/imgDALL-E-log.png");
+    background-image: url("imgs/imgDALL-E-log.webp");
     background-size: cover;
     background-position: bottom;
 }
 
 .bloco03 {
     grid-area: bloco03;
-    background-image: url("imgs/logCaminhao.png");
+    background-image: url("imgs/logCaminhao.webp");
     background-size: cover;
     background-position: bottom;
 }
 
 .bloco04 {
     grid-area: bloco04;
-    background-image: url("imgs/logNavio.png");
+    background-image: url("imgs/logNavio.webp");
     background-size: cover;
     background-position: bottom;
 }
@@ -606,7 +606,7 @@ p {
 
 .bloco06 {
     grid-area: bloco06;
-    background-image: url("imgs/cadeiaLog.png");
+    background-image: url("imgs/cadeiaLog.webp");
     background-size: cover;
     background-position: bottom;
 }
@@ -621,7 +621,7 @@ p {
 
 .bloco08 {
     grid-area: bloco08;
-    background-image: url("imgs/logCadeia.png");
+    background-image: url("imgs/logCadeia.webp");
     background-size: cover;
     background-position: bottom;
 }
@@ -692,14 +692,14 @@ p {
 
 .prod02 {
     grid-area: prod02;
-    background-image: url("imgs/imagProdEscritorio.png");
+    background-image: url("imgs/imagProdEscritorio.webp");
     background-size: cover;
     background-position: center;
 }
 
 .prod03 {
     grid-area: prod03;
-    background-image: url("imgs/imgProsEscritorio01.png");
+    background-image: url("imgs/imgProsEscritorio01.webp");
     background-size: cover;
     background-position: center;
 }
@@ -720,14 +720,14 @@ p {
 
 .prod06 {
     grid-area: prod06;
-    background-image: url("imgs/imgProdFamilia.png");
+    background-image: url("imgs/imgProdFamilia.webp");
     background-size: cover;
     background-position: center;
 }
 
 .prod07 {
     grid-area: prod07;
-    background-image: url("imgs/imgProdJustica.png");
+    background-image: url("imgs/imgProdJustica.webp");
     background-size: cover;
     background-position: center;
 }
@@ -757,7 +757,7 @@ p {
 .paralax {
     height: 80vh;
     background-color: red;
-    background-image: url("imgs/fundoParalax.png");
+    background-image: url("imgs/fundoParalax.webp");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -892,7 +892,7 @@ p {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url("imgs/heroArtigo.png") 0 0 no-repeat;
+    background: url("imgs/heroArtigo.webp") 0 0 no-repeat;
     background-position: center right;
     z-index: -1;
 }
@@ -1000,7 +1000,7 @@ p {
 .secSomos {
     height: 600px;
     padding: 0 10%;
-    background-image: url("imgs/heroSomos.png");
+    background-image: url("imgs/heroSomos.webp");
     background-position: top right;
     background-repeat: calc(no-repeat);
     position: relative;
@@ -1289,7 +1289,7 @@ p {
 /*  POST 01*/
 .heroPost01 {
     padding: 0 10%;
-    background-image: url("imgs/heroArtigo.png");
+    background-image: url("imgs/heroArtigo.webp");
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -1300,7 +1300,7 @@ p {
 
 .heroPost02 {
     padding: 0 10%;
-    background-image: url("imgs/heroArtigo.png");
+    background-image: url("imgs/heroArtigo.webp");
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -1317,7 +1317,7 @@ p {
     height: 80vh;
     background-color: #6c6771;
     padding: 0 10%;
-    background-image: url("imgs/heroArtigo.png");
+    background-image: url("imgs/heroArtigo.webp");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1413,7 +1413,7 @@ p {
 .serv02 {
     grid-area: serv02;
     padding: 5% !important;
-    background-image: url("imgs/imgDALL-E-log.png");
+    background-image: url("imgs/imgDALL-E-log.webp");
     background-position: top;
     background-size: cover;
 }
@@ -1516,7 +1516,7 @@ p {
     height: 80vh;
     background-color: #6c6771;
     padding: 0 10%;
-    background-image: url("imgs/imagProdEscritorio.png");
+    background-image: url("imgs/imagProdEscritorio.webp");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;

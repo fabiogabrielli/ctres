@@ -58,21 +58,11 @@
   <div class="stage conteudoAbordagem">
     <h1>Abordagem Consultiva</h1>
     <div id="fluxoCiclico">
-        <div data-bs-toggle="tooltip" data-bs-placement="top"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Clique no botão +" class="ponto" id="ponto1"><h1>Compreender o seu negócio<a onclick="abreModal('ponto1')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></div>
-        <div data-bs-toggle="tooltip" data-bs-placement="top"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Clique no botão +" class="ponto" id="ponto2"><h1>Mapeamento dos Riscos<a onclick="abreModal('ponto2')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-right"></i></i></div>
-        <div data-bs-toggle="tooltip" data-bs-placement="top"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Clique no botão +" class="ponto" id="ponto3"><h1>Personalização de Estratégias<a onclick="abreModal('ponto3')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-down"></i></div>
-        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Clique no botão +" class="ponto" id="ponto4"><h1>Entrega e Comprometimento<a onclick="abreModal('ponto4')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
-        <div data-bs-toggle="tooltip" data-bs-placement="bottom"
-        data-bs-custom-class="custom-tooltip"
-        data-bs-title="Clique no botão +" class="ponto" id="ponto5"><h1>Monitoramento Contínuo<a onclick="abreModal('ponto5')"><img src="imgs/circle-plus-solid.svg" alt="botao mais"></a></h1><i class="fa-solid fa-angles-left"></i></div>
+        <div onclick="abreModal('ponto1')" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Clique e Saiba Mais" class="ponto" id="ponto1"><h1>Compreender o seu negócio</h1><i class="fa-solid fa-angles-right"></i></div>
+        <div onclick="abreModal('ponto2')" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Clique e Saiba Mais" class="ponto" id="ponto2"><h1>Mapeamento dos Riscos</h1><i class="fa-solid fa-angles-right"></i></i></div>
+        <div onclick="abreModal('ponto3')" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Clique e Saiba Mais" class="ponto" id="ponto3"><h1>Personalização de Estratégias</h1><i class="fa-solid fa-angles-down"></i></div>
+        <div onclick="abreModal('ponto4')" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"data-bs-title="Clique e Saiba Mais" class="ponto" id="ponto4"><h1>Entrega e Comprometimento</h1><i class="fa-solid fa-angles-left"></i></div>
+        <div onclick="abreModal('ponto5')" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-custom-class="custom-tooltip"  data-bs-title="Clique e Saiba Mais" class="ponto" id="ponto5"><h1>Monitoramento Contínuo</h1><i class="fa-solid fa-angles-left"></i></div>
       </div>
   </div>
 </section>
@@ -80,7 +70,6 @@
 <div onclick="fecharModalAbordagem()" class="modalAbordagem" id="modalAbordagem">
   <div class="modalAbordagemConteudo">
     <div id="resultAbordagem">
-      <i onclick="fecharModalAbordagem()" class="fa-solid fa-circle-xmark"></i>
       <h1 id="textoAbordagem"></h1>
     </div>
   </div>
@@ -136,12 +125,12 @@
 
     <div class="prod04 produto">
       <h1>Segurança Patrimonial e Otimização de Capital</h1>
-      <a href=""><button type="button" class="btnProdSaiba">EM BREVE</button></a>
+      <a href="#"><button type="button" class="btnProdSaiba">EM BREVE</button></a>
     </div>
 
     <div class="prod05 produto">
       <h1>Proteção e Valorização do Capital Humano</h1>
-      <a href=""><button type="button" class="btnProdSaiba">EM BREVE</button></a>
+      <a href="#"><button type="button" class="btnProdSaiba">EM BREVE</button></a>
     </div>
 
     <div class="prod06 produto"></div>

@@ -122,6 +122,13 @@ $(document).ready(function(){
     modalAbordagem.style.display = "none";
   }
 
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      modalAbordagem.style.display = "none";
+    }
+});
+
+
    // FIM MODAL ABORDAGEM
   
 

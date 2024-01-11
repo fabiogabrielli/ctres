@@ -14,7 +14,7 @@
 <!-- INICIO WHATSAPP --> 
 
 <section class="whatsapp">
-  <a href="https://api.whatsapp.com/send?phone=5511941800078"><img class="logoWhatsapp" src="imgs/logoWhatsapp.svg" alt=""></a>
+  <a href="https://api.whatsapp.com/send?phone=551155232177"><img class="logoWhatsapp" src="imgs/logoWhatsapp.svg" alt=""></a>
 </section>
 
 <!-- FIM WHATSAPP --> 
@@ -39,8 +39,8 @@
       <a href="https://www.instagram.com/grupoctres/"><h6>INSTAGRAM</h6></a>
     </div>
     <div class="botao">
-      <a href="https://api.whatsapp.com/send?phone=5511941800078"><i class="fa-brands fa-square-whatsapp"></i></i></a>
-      <a href="https://api.whatsapp.com/send?phone=5511941800078"><h6>WHATSAPP</h6></a>
+      <a href="https://api.whatsapp.com/send?phone=551155232177"><i class="fa-brands fa-square-whatsapp"></i></i></a>
+      <a href="https://api.whatsapp.com/send?phone=551155232177"><h6>WHATSAPP</h6></a>
     </div>
 </section>
 <!-- FIM MENU MOBILE --> 

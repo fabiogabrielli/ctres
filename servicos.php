@@ -3,6 +3,7 @@
 
 <section class="secHeroServicos">
   <div class="stage heroServConteudo">
+    <span>SERVIÇOS</span>
     <h1>Somos consultores estratégicos, dedicados a construir soluções sob medida em logística e seguros.</h1>
   </div>
 </section>

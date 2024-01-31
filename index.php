@@ -1,5 +1,6 @@
 <?php include 'header.php'; ?>
 
+
 <!-- INICIO CAROUSEL -->
     
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">

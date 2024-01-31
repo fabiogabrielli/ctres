@@ -29,7 +29,6 @@
       <a href="somos.php">30 ANOS DE HISTÓRIA</a>
       <a href="index.php#servicos">SERVIÇOS</a>
       <a href="index.php#produtos">PRODUTOS</a>
-      <a href="index.php#secArtigos">CONTEÚDO (BLOG)</a>
     </div>
     <div class="redessociais">
       <a href="https://www.facebook.com/grupoctresoficial/"><i class="fa-brands fa-square-facebook"></i></a>

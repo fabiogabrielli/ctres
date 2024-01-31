@@ -37,19 +37,19 @@ body, html {
 }
 
 .menu {
-    height: 10vh;
+    height: 8vh;
     display: grid;
     grid-template-columns: 20% 60% 20%;
 }
 
 .logo {
-    height: 10vh;
+    height: 8vh;
     display: flex;
     align-items: center;
 }
 
 .imgLogo {
-    height: 60px;
+    height: 7vh;
 }
 
 .nave {
@@ -59,7 +59,7 @@ body, html {
 .nave a{
     text-decoration: none;
     font-family: var(--barlow);
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: white;
     padding: 0 10px;
 }
@@ -97,13 +97,13 @@ body, html {
 
 @media screen and (min-width: 1025px) and (max-width: 1300px){
     .nave a{
-        font-size: 0.6rem;
+        font-size: 0.8rem;
     }
 }
 
 /* CAROUSEL */
 .carousel-inner {
-    height: 90vh !important;
+    height: 80vh !important;
 }
 
 .carousel-item {
@@ -177,7 +177,7 @@ body, html {
     font-size: 1.2rem;
     font-weight: 300;
     padding: 0;
-    width: 60%;
+    width: 50%;
     color: white;
     z-index: 3;
 }
@@ -1311,13 +1311,13 @@ p {
     width: 100%;
 }
 
-/* --------------------------------------- SERVIÇOS -------------------------------------- */
+/* --------------------------------------- PAGINA SERVIÇOS -------------------------------------- */
 
 .secHeroServicos {
-    height: 80vh;
+    height: 60vh;
     background-color: #6c6771;
     padding: 0 10%;
-    background-image: url("imgs/heroArtigo.webp");
+    background-image: url("imgs/logCadeia.webp");
     background-position: right;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1338,29 +1338,34 @@ p {
 
 .heroServConteudo {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     height: 100%;
     width: 100%;
 }
 
-.heroServConteudo h1 {
-    width: 60%;
-    font-family: var(--redrose);
-    font-size: 3rem;
-    padding: 0 !important;
-    line-height: 3rem;
+.heroServConteudo span {
+    font-family: var(--barlow);
+    font-size: 0.8rem;
+    font-weight: 300;
     color: white;
-    z-index: 2;
+    z-index: 4;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: var(--vermelho);
+    padding: 3px 15px;
+    border-radius: 5px;
 }
 
 .heroServConteudo h1 {
     width: 60%;
     font-family: var(--redrose);
-    font-size: 3rem;
+    font-size: 2.4rem;
     padding: 0 !important;
-    line-height: 3rem;
+    line-height: 2.4rem;
     color: white;
-    z-index: 2;
+    z-index: 3;
 }
 
 .secServicos {
@@ -1510,7 +1515,7 @@ p {
     
 }
 
-/* --------------------------------------- SERVIÇOS -------------------------------------- */
+/* --------------------------------------- PAGINA PRODUTOS -------------------------------------- */
 
 .secHeroProdutos {
     height: 80vh;
@@ -1565,15 +1570,22 @@ color: white;
 z-index: 3;
 }
 
-.secProdutos {
-    padding: 0 10% 5% 10%;
-    margin-top: -100px;
-    z-index: 100;
+.secPageProdutos {
+    padding: 5% 10%;
+    background-color: var(--azul);
 }
 
-.conteudoProd {
+.conteudoPageProd {
     background-color: white;
-    height: 100%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.conteudoPageProd h6 {
+    font-family: 'Barlow', sans-serif; 
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 300;
 }
 
 /* --------------------------------------- FOOTER -------------------------------------- */
